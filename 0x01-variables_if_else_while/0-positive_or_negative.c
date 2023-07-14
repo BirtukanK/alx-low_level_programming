@@ -4,7 +4,7 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * msin - Entry point
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
