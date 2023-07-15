@@ -12,10 +12,10 @@ while (i < 10)
 putchar(48 + i);
 i++;
 }
-char ch;
-for (ch = 'a'; ch <= 'f'; ch++)
+char lower;
+for (lower = 'a'; lower <= 'f'; lower++)
 {
-putchar(ch);
+putchar(lower);
 }
 putchar('\n');
 return (0);
