@@ -6,20 +6,9 @@
 int main(void)
 {
 char lower = 'a';
-while (lower <= 'z')
-{
-if (lower == 'e')
-{
-continue;
-}
-else if (lower == 'q')
-{
-continue;
-}
-else
+while (lower <= 'z' && (lower != 'e' || lower != 'z'))
 {
 putchar(lower);
-}
 lower++;
 }
 putchar('\n');
