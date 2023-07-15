@@ -7,12 +7,12 @@
 int main(void)
 {
 int i = 0;
+char lower;
 while (i < 10)
 {
 putchar(48 + i);
 i++;
 }
-char lower;
 for (lower = 'a'; lower <= 'f'; lower++)
 {
 putchar(lower);
