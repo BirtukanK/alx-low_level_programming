@@ -12,6 +12,10 @@ if (lower != 'e' || lower != 'q')
 {
 putchar(lower);
 }
+else
+{
+jump;
+}
 lower++;
 }
 putchar('\n');
