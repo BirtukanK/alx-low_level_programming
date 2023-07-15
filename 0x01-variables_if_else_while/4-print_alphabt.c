@@ -6,7 +6,7 @@
 int main(void)
 {
 char lower = 'a';
-while (lower <= 'z' && (lower != 'e' || lower != 'z'))
+while (lower <= 'z' && (lower != 'e' && lower != 'z'))
 {
 putchar(lower);
 lower++;
