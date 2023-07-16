@@ -16,8 +16,11 @@ if (i != j && i < j)
 {
 putchar(48 + i);
 putchar(48 + j);
+if (i + j != 17)
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
