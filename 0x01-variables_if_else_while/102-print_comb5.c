@@ -13,11 +13,10 @@ for (j = 0; j <= 9; j++)
 {
 putchar('0' + i);
 putchar('0' + j);
-if (i + j != 18)
-{
 putchar(' ');
-putchar('\n');
-}
+putchar('0' + j);
+putchar('0' + j + 1);
+putchar(',');
 }
 }
 return (0);
