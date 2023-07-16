@@ -18,11 +18,11 @@ if (i != j && i != k && i < j && j < k)
 putchar(48 + i);
 putchar(48 + j);
 putchar(48 + k);
-}
 if (i + j + k != 24)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
