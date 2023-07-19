@@ -12,18 +12,21 @@ if (n < 98)
 {
 for (i = n; i <= 98; i++)
 printf("%d", n);
+if (n != 98)
+{
 printf(", ");
 }
-else if (n >= 98)
+}
+else (n >= 98)
 {
 for (i = n; i >= 98; i--)
 {
 printf("%d", n);
+if (n != 98)
+{
 printf(", ");
 }
 }
-else {
-printf("%d", n);
-
 }
+
 }
