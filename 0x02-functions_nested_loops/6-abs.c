@@ -1,13 +1,11 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * _abs - Entry point
- * @n : find absolute value of this integer
- * Return: none
+ * @n : number to check
+ * Return: 0 or 1
  */
-int _abs(int)
+int _abs(int n)
 {
-_putchar(int abs(int n));
-_putchar('\n');
+return (n >= 0 ? n : n * -1);
 return (0);
 }
