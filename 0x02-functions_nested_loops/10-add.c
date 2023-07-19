@@ -8,9 +8,7 @@
  */
 int add(int a, int b)
 {
-int result;
-result = a + b;
-printf(result);
+printf(a + b);
 printf("\n");
 return (0);
 }
