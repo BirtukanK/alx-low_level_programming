@@ -8,6 +8,5 @@
  */
 int add(int a, int b)
 {
-printf("%d", a + b);
-printf("\n");
+return (a + b);
 }
