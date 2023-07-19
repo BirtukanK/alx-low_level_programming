@@ -8,7 +8,7 @@
  */
 int add(int a, int b)
 {
-printf(a + b);
+printf("%d", a + b);
 printf("\n");
 return (0);
 }
