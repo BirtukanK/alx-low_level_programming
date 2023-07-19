@@ -10,10 +10,17 @@ for (i = 0; i <= 23; i++)
 {
 for (j = 0; j <= 59; j++)
 {
-_putchar(i);
+while (i < 10 && j < 10)
+{
+_putchar(i + '0');
+_putchar(i + '0');
+_putchar(':');
+_putchar(j + '0');
+_putchar(j + '0');
+i++;
+}
 _putchar(i);
 _putchar(':');
-_putchar(j);
 _putchar(j);
 _putchar('\n');
 }
