@@ -13,7 +13,7 @@ for (j = 0; j < 10; j++)
 result = i * j;
 if (result <= 9)
 {
-_putchar(result);
+_putchar(i * j);
 }
 else
 {
