@@ -11,7 +11,8 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j < 10; j++)
 {
 result = i * j;
-_putchar('48' + result);
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
 _putchar(',');
 _putchar(' ');
 }
