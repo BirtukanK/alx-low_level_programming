@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strpbrk - a function that searches a string for a set of byes
+ * _strpbrk - a function that searches a string for any of a set of bytes
  * @s: the string to search
  * @accept: character to find
  * Return pointer to the byte in s
