@@ -3,11 +3,11 @@
  * main - function
  * @argc: number of argument
  * @argv: array of argument
- * return: 0
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
+(void) argv;
 printf("%d\n", argc);
-(void)argv; 
 return (0);
 }
