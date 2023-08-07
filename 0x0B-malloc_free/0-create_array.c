@@ -12,7 +12,7 @@ char *s;
 unsigned int position;
 if (size == 0)
 	return (NULL);
-s =(char *) malloc(size * sizeof(c));
+s = (char *) malloc(size * sizeof(c));
 if (s == 0)
 {
 return (NULL);
