@@ -10,10 +10,21 @@
 char *argstostr(int ac, char **av)
 {
 char *newstr;
-int i, j, k = 0;
+int i = 0, j = 0, k = 0, count = 0;
 if (ac == 0 || av == NULL)
 	return (NULL);
-newstr = malloc(ac * sizeof(av));
+while (i < ac)
+{
+j = 0;
+while (av[i][j] != '\0')
+{
+count++;
+j++;
+}
+i++;
+}
+count = count + ac + 1;
+newstr = malloc(sizeof(char) * count);
 for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
