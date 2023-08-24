@@ -6,13 +6,13 @@
  */
 size_t list_len(const list_t *h)
 {
-size_t count = 1;
-if (!h)
-	return (0);
-else
+size_t count = 0;
+const list_t *temp;
+temp = h;
+while (temp)
 {
 count++;
-h = h->next;
+temp = temp->next;
 }
 return (count);
 }
