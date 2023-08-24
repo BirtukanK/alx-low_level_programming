@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
+/**
  * print_list - a function that prints all elements of list
  * @h: pointer to a structure
  * Return: number of nodes
@@ -14,7 +14,7 @@ if (h->str == NULL)
 {
 printf("[0] (nil)");
 }
-while(h != NULL)
+while (h != NULL)
 {
 count++;
 printf("[%d] %s\n", h->len, h->str);
