@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * add_nodeint_end - a function that adds a new node at the end
- * @head: pointer to the first element 
+ * @head: pointer to the first element
  * @n: integer
  * Return: address of new element
  */
