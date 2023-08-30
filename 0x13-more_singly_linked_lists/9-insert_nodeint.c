@@ -25,6 +25,8 @@ new->next = *head;
 return (new);
 }
 ptr = *head;
+if (ptr == NULL)
+	return (NULL);
 idx--;
 while (idx != 0)
 {
