@@ -5,6 +5,7 @@
  * @head: pointer to the first node
  * @idx: index of the list to add new node
  * @n: value of new node
+ * Return: NULL or address of new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
