@@ -18,15 +18,17 @@ new->next = NULL;
 
 if (*head == NULL && idx != 0)
 	return (NULL);
+ptr = *head;
+if (ptr == NULL)
+        return (NULL);
+
 if (idx == 0)
 {
 new->next = *head;
 *head = new;
 return (new);
 }
-ptr = *head;
-if (ptr == NULL)
-	return (NULL);
+
 idx--;
 while (idx != 0)
 {
