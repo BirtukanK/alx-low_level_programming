@@ -1,14 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 /**
  * _putchar - prints character
  * @c: a character to print
- * Return: nothing
+ * Return: character
  */
-void _putchar(char *c)
+int _putchar(char c)
 {
-if (c)
-{
-printf(write(1, &c, 1));
-}
+return (write(1, &c, 1));
 }
